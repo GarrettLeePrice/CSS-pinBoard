@@ -1,24 +1,38 @@
-*,
+/**,
 *::before,
 *::after {
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
-}
+}*/
 
 body {
   background-image: url('../img/cork-board.jpg');
 }
-
+/*
 #polaroid {
-  position: absolute;
+  position: relative;
 
-}
+}*/
 
 #pupPic {
-  position: relative;
-  bottom: 269px;
-  right: 816px;
+  position: absolute;
+  top: 117px;
+  left: 133px;
   width: 637px;
   height: 638px;
+}
+
+#pinPic {
+  position: relative;
+  top: 30px;
+  left: 400px;
+  width: 75px;
+}
+
+.polaroidBack {
+  background-image: url('../img/polaroid.png');
+  position: relative;
+  height: 900px;
+  background-repeat: no-repeat;
 }
