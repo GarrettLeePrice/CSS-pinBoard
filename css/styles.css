@@ -15,7 +15,7 @@ body {
 
 }*/
 
-#pupPic {
+/*#pupPic {
   position: absolute;
   top: 117px;
   left: 133px;
@@ -28,11 +28,28 @@ body {
   top: 30px;
   left: 400px;
   width: 75px;
+}*/
+
+.polaroidBack img {
+  position: relative;
+  width: 700px;
+
 }
 
-.polaroidBack {
-  background-image: url('../img/polaroid.png');
-  position: relative;
-  height: 900px;
-  background-repeat: no-repeat;
+.polaroidBack:before {
+  position: absolute;
+  content: url('../img/pitpupp.jpg');
+  top: 80px;
+  left:80px;
+
+
+
+}
+
+.polaroidBack:after {
+  position: absolute;
+  content: url('../img/pin.png');
+  left: 60px;
+  top: 10px;
+
 }
